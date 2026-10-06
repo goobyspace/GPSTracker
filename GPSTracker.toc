@@ -1,0 +1,13 @@
+## Interface: 16001
+## Title: GPS Tracker
+## Notes: Displays a LFG listing current area on the browse entry.
+## Version: @project-version@
+## Author: gooby.space
+
+## X-Curse-Project-ID: 1729125
+## X-Wago-ID: EGPaZ4N1
+
+## Category: User Interface
+## IconTexture: interface\ICONS\INV_Professions_Inscription_ScribesMagnifyingGlass_Silver
+
+GPSTracker.lua
