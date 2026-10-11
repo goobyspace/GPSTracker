@@ -22,11 +22,13 @@ local function UpdateEntryLocation(entry)
         return;
     end;
 
+    local isPlayer = entry.hasSelf or false;
+
     location:ClearAllPoints();
     location:SetPoint("TOPRIGHT", entry, "TOPRIGHT", -12, -10);
     location:SetWidth(math.max(0, entry:GetWidth() - 12));
     location:SetText(areaName);
-    location:Show();
+    location:SetShown(not isPlayer);
 end;
 
 local events = CreateFrame("Frame");
